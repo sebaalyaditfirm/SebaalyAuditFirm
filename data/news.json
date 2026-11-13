@@ -1,0 +1,11 @@
+[
+  {
+    "id": "2026-11-13-new-website",
+    "date": "2026-11-13",
+    "category": { "en": "Firm news", "ar": "أخبار المكتب" },
+    "title": { "en": "Welcome to our new website", "ar": "أهلاً بكم في موقعنا الجديد" },
+    "summary": { "en": "Sebaaly Audit Firm has launched its new bilingual website, with a dedicated space for firm news and insights.", "ar": "أطلق مكتب سبعلي للتدقيق موقعه الإلكتروني الجديد باللغتين، مع مساحة مخصصة لأخبار المكتب ورؤاه." },
+    "body": { "en": "We're pleased to launch our new website, available in English and Arabic.\n\nThis News section is where we'll share firm announcements, regulatory updates and practical insights for business owners and finance teams.\n\nFor any audit, tax or advisory question, [contact us](https://sebaalyauditfirm.com/#contact) — we'll get back to you promptly.", "ar": "يسعدنا إطلاق موقعنا الإلكتروني الجديد باللغتين العربية والإنجليزية.\n\nسنشارك في قسم الأخبار إعلانات المكتب والمستجدات التنظيمية ورؤى عملية لأصحاب الأعمال والفرق المالية.\n\nلأي سؤال يتعلق بالتدقيق أو الضرائب أو الاستشارات، [تواصلوا معنا](https://sebaalyauditfirm.com/ar/#contact) وسنرد عليكم في أقرب وقت." },
+    "image": ""
+  }
+]
