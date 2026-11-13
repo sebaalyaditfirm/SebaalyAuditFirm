@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Sebaaly Audit Firm</title>
+<meta name="description" content="Get in touch with Sebaaly Audit Firm for audit, tax, and advisory services.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .form-group { margin-bottom: 20px; }
+  .form-group label { display:block; font-size:0.88rem; font-weight:600; color:var(--navy); margin-bottom:6px; }
+  .form-group input, .form-group textarea {
+    width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:4px;
+    font-family:'Inter',sans-serif; font-size:0.95rem; color:var(--text); background:#fff;
+  }
+  .form-group input:focus, .form-group textarea:focus { outline:2px solid var(--gold); border-color:var(--gold); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-main">Sebaaly Audit Firm</span>
+      <span class="logo-sub">Audit &middot; Tax &middot; Advisory</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="ar/contact.html" class="lang-switch">&#1593;&#1585;&#1576;&#1610;</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Get In Touch</div>
+    <h1>Contact Us</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-grid">
+    <div>
+      <h2 style="font-size:1.7rem; margin-bottom:16px;">We'd Love to Hear From You</h2>
+      <p style="color:var(--text-muted); margin-bottom:30px;">Reach out by phone or email, or send us a message using the form and we'll get back to you as soon as possible.</p>
+
+      <div class="contact-card">
+        <div class="contact-row">
+          <div class="icon-badge">@</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:info@sebaalyauditfirm.com">info@sebaalyauditfirm.com</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="icon-badge">&#9742;</div>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:+9613913903">+961 3 913 903</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <form id="contact-form" action="https://formsubmit.co/info@sebaalyauditfirm.com" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="e.g. External Audit Inquiry">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-navy" style="border:none; cursor:pointer;">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="logo-main" style="font-family:'Playfair Display', serif; font-size:1.3rem;">Sebaaly Audit Firm</span>
+        <p class="tagline">Independent audit, tax, and advisory services built on precision and trust.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@sebaalyauditfirm.com">info@sebaalyauditfirm.com</a></li>
+          <li><a href="tel:+9613913903">+961 3 913 903</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Sebaaly Audit Firm. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>

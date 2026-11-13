@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>اتصل بنا | مكتب سبعلي للتدقيق</title>
+<meta name="description" content="تواصلوا مع مكتب سبعلي للتدقيق لخدمات التدقيق والضرائب والاستشارات.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .form-group { margin-bottom: 20px; }
+  .form-group label { display:block; font-size:0.88rem; font-weight:600; color:var(--navy); margin-bottom:6px; }
+  .form-group input, .form-group textarea {
+    width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:4px;
+    font-family:'Tajawal',sans-serif; font-size:0.95rem; color:var(--text); background:#fff;
+  }
+  .form-group input:focus, .form-group textarea:focus { outline:2px solid var(--gold); border-color:var(--gold); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-main">مكتب سبعلي للتدقيق</span>
+      <span class="logo-sub">تدقيق &middot; ضرائب &middot; استشارات</span>
+    </a>
+    <button class="nav-toggle" aria-label="القائمة">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="services.html">خدماتنا</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html" class="active">اتصل بنا</a></li>
+        <li><a href="../contact.html" class="lang-switch">English</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">تواصل معنا</div>
+    <h1>اتصل بنا</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-grid">
+    <div>
+      <h2 style="font-size:1.7rem; margin-bottom:16px;">يسعدنا التواصل معكم</h2>
+      <p style="color:var(--text-muted); margin-bottom:30px;">تواصلوا معنا عبر الهاتف أو البريد الإلكتروني، أو أرسلوا لنا رسالة عبر النموذج وسنرد عليكم في أقرب وقت ممكن.</p>
+
+      <div class="contact-card">
+        <div class="contact-row">
+          <div class="icon-badge">@</div>
+          <div>
+            <h4>البريد الإلكتروني</h4>
+            <a href="mailto:info@sebaalyauditfirm.com">info@sebaalyauditfirm.com</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="icon-badge">&#9742;</div>
+          <div>
+            <h4>الهاتف</h4>
+            <a href="tel:+9613913903">+961 3 913 903</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <form id="contact-form" action="https://formsubmit.co/info@sebaalyauditfirm.com" method="POST">
+        <div class="form-group">
+          <label for="name">الاسم الكامل</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">البريد الإلكتروني</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">الموضوع</label>
+          <input type="text" id="subject" name="subject" placeholder="مثال: استفسار عن التدقيق الخارجي">
+        </div>
+        <div class="form-group">
+          <label for="message">الرسالة</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-navy" style="border:none; cursor:pointer;">إرسال الرسالة</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="logo-main" style="font-size:1.3rem;">مكتب سبعلي للتدقيق</span>
+        <p class="tagline">خدمات تدقيق وضرائب واستشارات مستقلة مبنية على الدقة والثقة.</p>
+      </div>
+      <div>
+        <h4>التنقل</h4>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="services.html">خدماتنا</a></li>
+          <li><a href="about.html">من نحن</a></li>
+          <li><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>تواصل</h4>
+        <ul>
+          <li><a href="mailto:info@sebaalyauditfirm.com">info@sebaalyauditfirm.com</a></li>
+          <li><a href="tel:+9613913903">+961 3 913 903</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 مكتب سبعلي للتدقيق. جميع الحقوق محفوظة.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../nav.js"></script>
+</body>
+</html>
